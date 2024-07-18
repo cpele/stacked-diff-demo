@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                 Column {
                     val context = LocalContext.current
                     Greeting(
-                        name = "Android team",
+                    name = "Android global team",
                         modifier = Modifier.padding(innerPadding)
                     )
                     Button(onClick = {
